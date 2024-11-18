@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    // Specifies the JavaScript version for the compiled code
+    "target": "ESNext",
+
+    // Defines the module system for TypeScript (CommonJS for Node.js)
+    "module": "CommonJS",
+
+    // Libraries available in the project
+    "lib": ["DOM", "ESNext"],
+
+    // Module resolution strategy: Node.js
+    "moduleResolution": "node",
+
+    // Allows importing JSON files as modules
+    "resolveJsonModule": true,
+
+    // Output directory for compiled code
+    "outDir": "dist",
+
+    // Enables strict type-checking options
+    "strict": true,
+
+    // Ensures compatibility with ES6 modules (e.g., `import/export`)
+    "esModuleInterop": true,
+
+    // Skips type checking for declaration files (faster compilation)
+    "skipLibCheck": true,
+
+    // Enforces consistent casing in file names
+    "forceConsistentCasingInFileNames": true,
+
+    // Base path for the project used for path aliases
+    "baseUrl": "./",
+
+    // Defines path aliases for imports
+    "paths": {
+      "@pages/*": ["src/Pages/*"],
+      "@utils/*": ["src/utils/*"],
+      "@interfaces/*": ["src/Interfaces/*"],
+      "@tests/*": ["src/tests/*"],
+      "@config/*": ["src/config/*"]
+    }
+  },
+  // Includes all TypeScript files in the specified folder
+  "include": ["src/**/*.ts"],
+
+  // Excludes specified folders or files (e.g., node_modules)
+  "exclude": ["node_modules"]
+}

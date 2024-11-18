@@ -1,0 +1,19 @@
+{
+  "name": "sideproject",
+  "version": "1.0.0",
+  "description": "End-to-End testing project using Playwright and TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "npx playwright test --headed", 
+    "test:report": "npx playwright show-report", 
+    "clean": "rm -rf ./test-results", 
+    "install:all": "npm install",
+    "start": "npx playwright test --project=Chromium"
+  },
+  "keywords": ["playwright", "typescript", "e2e", "testing", "automation"],
+  "author": "Andrii Shutka",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.9.0"
+  }
+}
