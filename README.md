@@ -20,20 +20,20 @@ cd Systima.project
 
 ## Install Dependencies
 Use pnpm to install the required project dependencies:
-pnpm install
+```pnpm install```
 
 ## Run All Tests
 To execute all the tests in the project, run:
-pnpm test
+```pnpm test```
 
 ## Run Tests in Headed Mode
 To debug or visually observe the tests in a browser:
-pnpm exec playwright test --headed
+```pnpm exec playwright test --headed```
 
 ## Run a Specific Test File
 To run a specific test file, provide the test file path:
-pnpm exec playwright test src/tests/contact.creation.success.spec.ts
+```pnpm exec playwright test src/tests/contact.creation.success.spec.ts```
 
 ## View Test Reports
 After running the tests, view the HTML report with:
-pnpm exec playwright show-report
+```pnpm exec playwright show-report```
