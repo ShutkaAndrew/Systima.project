@@ -7,9 +7,9 @@ The project uses the Playwright framework for end-to-end (E2E) testing.
 ## Prerequisites
 Before setting up and running the project, ensure you have the following tools installed:
 
-- **Node.js**: Version 20.8.0 or above. Download Node.js
-- **pnpm**: Preferred package manager for managing dependencies. Install pnpm
-- **Playwright**: Installed as a dependency in this project. Learn more about Playwright
+- **Node.js**: Version `20.8.0` or above. [Download Node.js](https://nodejs.org/)
+- **pnpm**: Preferred package manager for managing dependencies. [Install pnpm](https://pnpm.io/installation)
+- **Playwright**: Installed as a dependency in this project. [Learn more about Playwright](https://playwright.dev/)
 ## Setup Instructions
 ### 1. Clone the Repository
 Run the following command to clone the project repository to your local machine:git clone https://github.com/ShutkaAndrew/Systima.project.git
